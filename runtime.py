@@ -1,26 +1,14 @@
 
-#datatype
-'''a=50
-print(type(a))
-b=45.89
-print(type(b))
-c='hello'
-print(type(c))
-d=True
-print(type(d))'''
 
-#runtime
-'''sasi=int(input("enter the sasi salary"))
-boobalan=int(input("enter the boobalan salary"))
-print("plus operator",sasi+boobalan)
-print("minus operator",sasi-boobalan)
-print("mul operator",sasi*boobalan)
-print("div operator",sasi/boobalan)
-print("per operator",sasi%boobalan)'''
 
-cent=float(input("enter the cent value"))
-acre=cent/100
-print("cent value is",cent,"acre value is",acre)
+deposit=int(input("enter the amount:"))
+intrest=6.8
+profit=(deposit*intrest)/100
+maturity=deposit+profit
+print("profit amount is",maturity)
+print("yearly",profit)
+print("yearly twise",profit/2)
+print("yearly fourtimes",profit/4)
 
 
 
